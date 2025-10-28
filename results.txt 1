@@ -1,0 +1,54 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+________________________________________________
+$ git branch
+  branch2
+* main
+________________________________________________
+$ git log
+commit 013bd35de274a98f07917b0268ec82d86ffd177d (HEAD -> main, origin/main)
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:43:55 2025 +0200
+
+    add rusults.txt
+
+commit e012c76bd7eced5e0da595f52d51c019ce6674f6
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:37:21 2025 +0200
+
+    add resuit text
+
+commit 5f638c5cb289d89298d4e828919b19ce8876b0be
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:34:05 2025 +0200
+
+    add resuit file
+
+commit 13ac73074bb1047037eb5aca0db337cda1ded8a3
+Merge: 0c126cc 202d295
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:30:18 2025 +0200
+
+    fix conflict merge
+
+commit 0c126cce5f978b6d3be9490fa21e42bf902f99a9
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:28:15 2025 +0200
+
+    fix index.html on branch main
+
+commit 202d29501c703e1fc57806309967942b431afd68 (origin/branch2, branch2)
+Author: g4zima_2 <kakkaaosos@gmail.com>
+:
+________________________________________________________________________
+$ git log --merges
+commit 13ac73074bb1047037eb5aca0db337cda1ded8a3
+Merge: 0c126cc 202d295
+Author: g4zima_2 <kakkaaosos@gmail.com>
+Date:   Tue Oct 28 11:30:18 2025 +0200
+
+    fix conflict merge
+______________________________________________________
